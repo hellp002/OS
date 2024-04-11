@@ -55,7 +55,6 @@ static int device_open(struct inode *inode, struct file *file)
 	dev_open++;
 	printk(KERN_INFO "dev minor %d\n", MINOR(inode->i_rdev));
 	if (MINOR(inode->i_rdev) == 1){
-		snprintf("called minor 1",20);
 		f_ptr=(char * )f_data1;
 	}
 	else if (MINOR(inode->i_rdev) == 0)
