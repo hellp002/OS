@@ -1,1 +1,0 @@
-savedcmd_/home/ubuntu/hw12/osinfo/osinfo.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/hw12/osinfo/osinfo.ko /home/ubuntu/hw12/osinfo/osinfo.o /home/ubuntu/hw12/osinfo/osinfo.mod.o;  make -f ./arch/x86/Makefile.postlink /home/ubuntu/hw12/osinfo/osinfo.ko
